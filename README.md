@@ -1,0 +1,2 @@
+# magnatic
+simple
