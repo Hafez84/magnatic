@@ -1,10 +1,7 @@
 /* Start Variable */
 :root {
     --main-color: #111110;
-    /* --main-color: #0D0D0D; */
-    /* --secondary-color: #8c7c54; */
-    /* --secondary-color: #D9B959; */
-    --secondary-color: rgb(131,58,180);
+    --secondary-color: #af002d;
 	/* --secondary-color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
 }
 /* End Variable */
@@ -56,8 +53,9 @@ a {
 }
 /* End Global Rules */
 header nav {
-    background-color: var(--secondary-color);
-    /* height: 60px; */
+    /* background-color: var(--secondary-color); */
+    background: linear-gradient(
+130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
     width: 100vw;
     margin-top: 5px;
 }
@@ -140,7 +138,8 @@ header .container .header-contact ul li a {
         flex-direction: column;
         height: 190px;
         width: 100vw;
-        background-color: var(--secondary-color);
+        background: linear-gradient(
+        130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
         position: absolute;
         left: 0;
         top: 40px;
@@ -190,14 +189,13 @@ header nav h1 {
     display: none;
     flex: 1 1 0%;
     justify-content: flex-end;
-    /* margin: 0 -16px; */
     position: absolute;
     padding: 10px 123px;
-    /* top: 75px; */
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: var(--secondary-color);
+    background: linear-gradient(
+130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 }
 .menu a {
     color: #000;
@@ -332,8 +330,6 @@ header nav h1 {
 	margin: 0 10px;
 	cursor: pointer;
 }
-/* /2 */
-
 /* javascript */
 .active, .dot:hover{
 	border-color: var(--secondary-color);
@@ -342,30 +338,25 @@ header nav h1 {
 
 /* muslide add fade */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 0.8}
-  to {opacity: 1}
+    from {opacity: 0.8}
+    to {opacity: 1}
 }
-
 @keyframes fade {
-  from {opacity: 0.8}
-  to {opacity: 1}
+    from {opacity: 0.8}
+    to {opacity: 1}
 }
-
-
-/* 5 */
 @media screen and (max-width: 800px){
 	.myslide{
 		height: 500px;
 	}
 }
-/* /5 */
 /* End Header */
 /* Start Message */
 .message {
@@ -406,7 +397,8 @@ header nav h1 {
 	line-height: 1.5;
 }
 .message-left a {
-	background-color: var(--secondary-color);
+    background: linear-gradient(
+        130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 	padding: 20px;
 	border-radius: 15px;
 	color: #fff;
@@ -416,6 +408,8 @@ header nav h1 {
 .message-right {
 	width: 40vw;
 	height: 100%;
+    margin-top: 120px;
+    margin-bottom: 10px;
 }
 @media (max-width: 1199px) {
 	.message-right{
@@ -462,7 +456,8 @@ header nav h1 {
 /* End Message */
 /* Start Products */
 .product-header {
-	background-color: var(--secondary-color);
+    background: linear-gradient(
+        130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 	width: 100vw;
 	height: 80px;
 	display: flex;
@@ -480,7 +475,8 @@ header nav h1 {
 }
 .product-cards {
 	display: flex;
-	justify-content: space-around;
+	/* justify-content: space-around; */
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -498,12 +494,12 @@ header nav h1 {
 @media (max-width: 1199px) {
 	.product-cards .card {
 		width: 40%;
-        padding: 15px;
+        /* padding: 15px; */
 	}
 }
 @media (max-width: 995px) {
     .product-cards .card a{
-        padding: 15px;
+        /* padding: 15px; */
         margin-top: 0;
     }
 }
@@ -543,7 +539,8 @@ header nav h1 {
 	font-size: 18px;
 	color: #fff;
 	margin-top: 20px;
-	background-color: var(--secondary-color);
+    background: linear-gradient(
+        130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 }
 @media (max-width: 995px) {
     .product-cards .card a{
@@ -554,7 +551,8 @@ header nav h1 {
 /* End Products */
 /* Start Clients */
 .clients-header {
-    background-color: var(--secondary-color);
+    background: linear-gradient(
+        130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
 	width: 100vw;
 	height: 80px;
 	display: flex;
