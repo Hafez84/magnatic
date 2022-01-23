@@ -520,6 +520,7 @@ header nav h1 {
 	height: 250px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	object-fit: cover;
 }
 .product-cards .card h4 {
 	margin-top: 10px;
