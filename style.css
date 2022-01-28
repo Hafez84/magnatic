@@ -517,10 +517,12 @@ header nav h1 {
 }
 .product-cards .card img {
 	width: 100%;
-	height: 250px;
+	height: 260px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	object-fit: cover;
+	object-position: 50% 70%;
+	
 }
 .product-cards .card h4 {
 	margin-top: 10px;
