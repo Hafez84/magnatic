@@ -29,7 +29,7 @@
 
 .photo-card {
     width: 45%;
-    height: 400px;
+    height: 420px;
     border: 10px solid var(--secondary-color);
     flex-wrap: wrap;
     margin-bottom: 40px;
@@ -39,7 +39,7 @@
     height: 105%;
     z-index: -1;
     object-fit: cover;
-    object-position: center bottom;
+    object-position: center center;
 }
 
 .back {
