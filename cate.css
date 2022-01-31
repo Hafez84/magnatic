@@ -65,6 +65,15 @@
     left: 200px;
 }
 
+.size-1 {
+    object-position: 50% 85% !important;
+}
+.size-2 {
+    object-position: 50% 75% !important;
+}
+.size-3 {
+    object-position: 100% 50% !important;
+}
 @media (max-width: 1024px) {
     .photo-cards {
         flex-direction: column;
